@@ -1,0 +1,22 @@
+{
+  "name": "tailgulp",
+  "version": "1.0.0",
+  "description": "A powerfull starter tool based on Tailwind and GulpJS",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwinds": "tailwind build src/style.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "gulp",
+    "tailwind"
+  ],
+  "author": "Panfile Kirill",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
